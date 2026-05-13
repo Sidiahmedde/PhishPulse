@@ -1,0 +1,15 @@
+header_name,overall_count,overall_fraction,label_0_count,label_0_fraction,label_1_count,label_1_fraction
+spamassassin,0,0.0,0,0.0,0,0.0
+x-forefront-antispam-report,0,0.0,0,0.0,0,0.0
+x-microsoft-antispam,0,0.0,0,0.0,0,0.0
+x-ms-exchange-antispam-message-info,0,0.0,0,0.0,0,0.0
+x-ms-exchange-organization-antispam-report,0,0.0,0,0.0,0,0.0
+x-ms-exchange-organization-pcl,0,0.0,0,0.0,0,0.0
+x-ms-exchange-organization-scl,0,0.0,0,0.0,0,0.0
+x-phish,0,0.0,0,0.0,0,0.0
+x-spam-flag,0,0.0,0,0.0,0,0.0
+x-spam-level,0,0.0,0,0.0,0,0.0
+x-spam-score,0,0.0,0,0.0,0,0.0
+x-spam-status,0,0.0,0,0.0,0,0.0
+x-virus-scanned,0,0.0,0,0.0,0,0.0
+x-virus-status,0,0.0,0,0.0,0,0.0

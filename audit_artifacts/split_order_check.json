@@ -1,0 +1,7 @@
+{
+  "file": "src/models/train_super_model_advanced.py",
+  "build_feature_frame_before_split": true,
+  "feature_build_position": 9180,
+  "split_position": 9312,
+  "conclusion": "Leakage risk detected: module probabilities are built for the full dataset before the train/test split."
+}

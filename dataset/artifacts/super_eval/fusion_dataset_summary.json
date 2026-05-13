@@ -1,0 +1,26 @@
+{
+  "source_mode": "common_only",
+  "original_rows": 34588,
+  "class_balance_before_filter": {
+    "0": 17294,
+    "1": 17294
+  },
+  "filtered_rows": 22586,
+  "kept_source_groups": [
+    "data/processed/cleaned_phishing_dataset.csv"
+  ],
+  "dropped_source_groups": [
+    "epvme/EPVME-Dataset/extracted"
+  ],
+  "class_balance_after_filter": {
+    "0": 17294,
+    "1": 5292
+  },
+  "non_empty_header_rate": 0.0,
+  "split_summary": {
+    "split_mode": "sender_domain_grouped",
+    "group_count": 6647,
+    "train_group_count": 5317,
+    "test_group_count": 1330
+  }
+}

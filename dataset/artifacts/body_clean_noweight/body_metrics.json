@@ -1,0 +1,44 @@
+{
+  "accuracy": 0.7345679012345679,
+  "precision": 0.8236775818639799,
+  "recall": 0.8522823330515639,
+  "f1": 0.8377358490566038,
+  "confusion_matrix": [
+    [
+      872,
+      2590
+    ],
+    [
+      2097,
+      12099
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.29      0.25      0.27      3462\n           1       0.82      0.85      0.84     14196\n\n    accuracy                           0.73     17658\n   macro avg       0.56      0.55      0.55     17658\nweighted avg       0.72      0.73      0.73     17658\n",
+  "roc_auc": 0.4767998780463786,
+  "average_precision": 0.7898648035154212,
+  "dataset_size": 88290,
+  "train_size": 70632,
+  "test_size": 17658,
+  "class_balance": {
+    "0": 17312,
+    "1": 70978
+  },
+  "empty_clean_fraction": 0.065,
+  "fallback_fraction": 0.2718,
+  "train_time_seconds": 252.814,
+  "config": {
+    "max_features": 50000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "C": 1.0,
+    "solver": "saga",
+    "max_iter": 5000,
+    "class_weight": "None",
+    "calibrate": false,
+    "calibration_method": "sigmoid",
+    "calibration_cv": 3,
+    "random_state": 42
+  }
+}

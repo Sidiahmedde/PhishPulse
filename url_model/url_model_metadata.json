@@ -1,0 +1,23 @@
+{
+  "model_name": "random_forest",
+  "threshold": 0.5,
+  "dataset_path": "C:\\Users\\sidia\\Documents\\phishing_detector\\phishing_detector\\data\\raw\\SpamAssasin.csv",
+  "num_rows_with_urls": 4606,
+  "num_features": 25,
+  "metrics": {
+    "roc_auc": 0.936547215039862,
+    "f1": 0.730593607305936,
+    "precision": 0.6956521739130435,
+    "recall": 0.7692307692307693,
+    "confusion_matrix": [
+      [
+        644,
+        70
+      ],
+      [
+        48,
+        160
+      ]
+    ]
+  }
+}

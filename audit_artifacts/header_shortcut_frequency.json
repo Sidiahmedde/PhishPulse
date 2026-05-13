@@ -1,0 +1,146 @@
+[
+  {
+    "indicator": "X-Virus-Scanned",
+    "overall_count": 1895,
+    "overall_rate": 0.05478778767202498,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 1895,
+    "class_1_rate": 0.10957557534404996
+  },
+  {
+    "indicator": "X-Virus-Status",
+    "overall_count": 1798,
+    "overall_rate": 0.05198334682548861,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 1798,
+    "class_1_rate": 0.10396669365097722
+  },
+  {
+    "indicator": "SpamAssassin",
+    "overall_count": 117,
+    "overall_rate": 0.0033826760726263444,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 117,
+    "class_1_rate": 0.006765352145252689
+  },
+  {
+    "indicator": "X-Spam-Status",
+    "overall_count": 117,
+    "overall_rate": 0.0033826760726263444,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 117,
+    "class_1_rate": 0.006765352145252689
+  },
+  {
+    "indicator": "X-Spam-Level",
+    "overall_count": 100,
+    "overall_rate": 0.002891176130449867,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 100,
+    "class_1_rate": 0.005782352260899734
+  },
+  {
+    "indicator": "X-Spam-Report",
+    "overall_count": 64,
+    "overall_rate": 0.001850352723487915,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 64,
+    "class_1_rate": 0.00370070544697583
+  },
+  {
+    "indicator": "X-Spam-Checker-Version",
+    "overall_count": 61,
+    "overall_rate": 0.0017636174395744188,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 61,
+    "class_1_rate": 0.0035272348791488377
+  },
+  {
+    "indicator": "X-Spam-Flag",
+    "overall_count": 53,
+    "overall_rate": 0.0015323233491384295,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 53,
+    "class_1_rate": 0.003064646698276859
+  },
+  {
+    "indicator": "X-Spam-Score",
+    "overall_count": 10,
+    "overall_rate": 0.0002891176130449867,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 10,
+    "class_1_rate": 0.0005782352260899734
+  },
+  {
+    "indicator": "X-Forefront-Antispam-Report",
+    "overall_count": 5,
+    "overall_rate": 0.00014455880652249336,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 5,
+    "class_1_rate": 0.0002891176130449867
+  },
+  {
+    "indicator": "X-Microsoft-Antispam",
+    "overall_count": 3,
+    "overall_rate": 8.673528391349601e-05,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 3,
+    "class_1_rate": 0.00017347056782699203
+  },
+  {
+    "indicator": "X-MS-Exchange-Organization-SCL",
+    "overall_count": 0,
+    "overall_rate": 0.0,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 0,
+    "class_1_rate": 0.0
+  },
+  {
+    "indicator": "X-Microsoft-Antispam-Message-Info",
+    "overall_count": 0,
+    "overall_rate": 0.0,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 0,
+    "class_1_rate": 0.0
+  },
+  {
+    "indicator": "X-Phish",
+    "overall_count": 0,
+    "overall_rate": 0.0,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 0,
+    "class_1_rate": 0.0
+  },
+  {
+    "indicator": "X-Phishing",
+    "overall_count": 0,
+    "overall_rate": 0.0,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 0,
+    "class_1_rate": 0.0
+  },
+  {
+    "indicator": "X-Proofpoint-Spam-Details",
+    "overall_count": 0,
+    "overall_rate": 0.0,
+    "class_0_count": 0,
+    "class_0_rate": 0.0,
+    "class_1_count": 0,
+    "class_1_rate": 0.0
+  }
+]

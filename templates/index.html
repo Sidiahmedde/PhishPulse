@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phishing Detector</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">PhishGuard</div>
+    <div class="tagline">AI-powered phishing detection</div>
+  </header>
+
+  <main class="panels">
+
+    <!-- ===== LEFT: COMPOSE ===== -->
+    <section class="panel compose-panel">
+      <h2>Compose Email</h2>
+      <form id="composeForm">
+        <div class="field">
+          <label for="sender">From</label>
+          <input type="email" id="sender" placeholder="sender@example.com" required />
+        </div>
+        <div class="field">
+          <label for="receiver">To</label>
+          <input type="email" id="receiver" placeholder="receiver@example.com" required />
+        </div>
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Email subject" required />
+        </div>
+        <div class="field">
+          <label for="body">Message</label>
+          <textarea id="body" rows="10" placeholder="Write your message here..."></textarea>
+        </div>
+        <button type="submit" id="sendBtn">
+          <span id="btnText">Send</span>
+          <span id="btnSpinner" class="spinner hidden"></span>
+        </button>
+      </form>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ===== RIGHT: INBOX ===== -->
+    <section class="panel inbox-panel">
+      <h2>Inbox</h2>
+      <div id="inbox">
+        <div class="empty-state">No emails yet. Send one to see the prediction.</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
