@@ -233,3 +233,17 @@ artifacts/*
 # python
 __pycache__/
 *.pyc
+# Python virtual environment
+.venv/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
